@@ -1,27 +1,7 @@
 {
-	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-
-	"Bootstrap5 Boilerplate": {
-		"prefix": "boot5",
-		"body": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Bootstrap demo<\/title>\r\n    <link href=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@5.2.0-beta1\/dist\/css\/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-0evHe\/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\" crossorigin=\"anonymous\">\r\n  <\/head>\r\n  <body>\r\n    <h1>Hello, world!$0<\/h1>\r\n    <script src=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@5.2.0-beta1\/dist\/js\/bootstrap.bundle.min.js\" integrity=\"sha384-pprn3073KE6tl6bjs2QrFaJGz5\/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2\" crossorigin=\"anonymous\"><\/script>\r\n  <\/body>\r\n<\/html>",
-		"description": "Bootstrap 5 starter template"
-		},
-		"Bootstrap4 Boilerplate": {
-			"prefix": "boot4",
-			"body": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Bootstrap demo<\/title>\r\n    <link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@4.1.3\/dist\/css\/bootstrap.min.css\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\r\n  <\/head>\r\n  <body>\r\n    <h1>Hello, world!$0<\/h1>\r\n    <script src=\"https:\/\/code.jquery.com\/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i\/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"><\/script>\r\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/popper.js@1.14.3\/dist\/umd\/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK\/l8WvCWPIPm49\" crossorigin=\"anonymous\"><\/script>\r\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@4.1.3\/dist\/js\/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW\/JmZQ5stwEULTy\" crossorigin=\"anonymous\"><\/script>\r\n  <\/body>\r\n<\/html>",
-			"description": "Bootstrap 4 starter template"
-			}
-	
+	"Vue.js Component": {
+		"prefix": "vcomp",
+		"body": "<template lang=\"html\">\r\n    <h1>New Component<\/h1>\r\n<\/template>\r\n\r\n<script>\r\n  export default  {\r\n    name: 'Component',\r\n    props: [],\r\n    mounted () {\r\n\r\n    },\r\n    data () {\r\n      return {\r\n\r\n      }\r\n    },\r\n    methods: {\r\n    },\r\n    computed: {\r\n    }\r\n}\r\n<\/script>\r\n\r\n<style>\r\n<\/style>",
+		"description": "Create a Vue.js Component"
+		}	
 }
