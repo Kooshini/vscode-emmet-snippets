@@ -3,5 +3,10 @@
 		"prefix": "vcomp",
 		"body": "<template lang=\"html\">\r\n    <h1>New Component<\/h1>\r\n<\/template>\r\n\r\n<script>\r\n  export default  {\r\n    name: 'Component',\r\n    props: [],\r\n    mounted () {\r\n\r\n    },\r\n    data () {\r\n      return {\r\n\r\n      }\r\n    },\r\n    methods: {\r\n    },\r\n    computed: {\r\n    }\r\n}\r\n<\/script>\r\n\r\n<style>\r\n<\/style>",
 		"description": "Create a Vue.js Component"
-		}	
+		},
+	"Vue.js Script Block": {
+		"prefix": "vscript",
+		"body": "<script>\r\nexport default {\r\n  name: \"Component\",\r\n  props: [],\r\n  mounted() {},\r\n  data() {\r\n    return {};\r\n  },\r\n  methods: {},\r\n  computed: {},\r\n};\r\n<\/script>",
+		"description": "Create a Vue.js Script Block"
+		}
 }
