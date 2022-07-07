@@ -1,12 +1,17 @@
 {
-	"Vue.js Component": {
-		"prefix": "vcomp",
-		"body": "<template lang=\"html\">\r\n    <h1>New Component<\/h1>\r\n<\/template>\r\n\r\n<script>\r\n  export default  {\r\n    name: 'Component',\r\n    props: [],\r\n    mounted () {\r\n\r\n    },\r\n    data () {\r\n      return {\r\n\r\n      }\r\n    },\r\n    methods: {\r\n    },\r\n    computed: {\r\n    }\r\n}\r\n<\/script>\r\n\r\n<style>\r\n<\/style>",
-		"description": "Create a Vue.js Component"
-		},
-	"Vue.js Script Block": {
-		"prefix": "vscript",
-		"body": "<script>\r\nexport default {\r\n  name: \"Component\",\r\n  props: [],\r\n  mounted() {},\r\n  data() {\r\n    return {};\r\n  },\r\n  methods: {},\r\n  computed: {},\r\n};\r\n<\/script>",
-		"description": "Create a Vue.js Script Block"
-		}
+  "Vue.js Component": {
+    "prefix": "vcomp",
+    "body": "<template>\r\n    <h1>New Component</h1>\r\n</template>\r\n\r\n<script>\r\n  export default  {\r\n    name: 'Component',\r\n    props: [],\r\n    mounted () {\r\n\r\n    },\r\n    data () {\r\n      return {\r\n\r\n      }\r\n    },\r\n    methods: {\r\n    },\r\n    computed: {\r\n    }\r\n}\r\n</script>\r\n\r\n<style>\r\n</style>",
+    "description": "Create a Vue.js Component"
+  },
+  "Vue.js Script Block": {
+    "prefix": "vscript",
+    "body": "<script>\r\nexport default {\r\n  name: \"Component\",\r\n  props: [],\r\n  mounted() {},\r\n  data() {\r\n    return {};\r\n  },\r\n  methods: {},\r\n  computed: {},\r\n};\r\n</script>",
+    "description": "Create a Vue.js Script Block"
+  },
+  "Bootstrap5 Table": {
+    "prefix": "boot5-table",
+    "body": "<table class=\"table\">\r\n  <thead>\r\n    <tr>\r\n      <th scope=\"col\">#</th>\r\n      <th scope=\"col\">First</th>\r\n      <th scope=\"col\">Last</th>\r\n      <th scope=\"col\">Handle</th>\r\n    </tr>\r\n  </thead>\r\n  <tbody>\r\n    <tr>\r\n      <th scope=\"row\">1</th>\r\n      <td>Mark</td>\r\n      <td>Otto</td>\r\n      <td>@mdo</td>\r\n    </tr>\r\n    <tr>\r\n      <th scope=\"row\">2</th>\r\n      <td>Jacob</td>\r\n      <td>Thornton</td>\r\n      <td>@fat</td>\r\n    </tr>\r\n    <tr>\r\n      <th scope=\"row\">3</th>\r\n      <td colspan=\"2\">Larry the Bird</td>\r\n      <td>@twitter</td>\r\n    </tr>\r\n  </tbody>\r\n</table>",
+    "description": "Bootstrap 5 table"
+  }
 }
